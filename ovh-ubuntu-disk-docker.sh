@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #automate fdisk
-fadisk() {
+function fadisk {
   (
   echo n # Add a new partition
   echo   # default next part
